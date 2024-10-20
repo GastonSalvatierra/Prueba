@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import { useEffect } from "react";
-import { DataProvider } from "@/context/datacontext";
+import { DataProvider } from "@/context/dataContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
